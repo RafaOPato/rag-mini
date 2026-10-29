@@ -1,0 +1,24 @@
+name: rag-mini
+
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: rag-mini-db
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag   # senha de desenvolvimento local; a porta só escuta em 127.0.0.1
+      POSTGRES_DB: rag
+    ports:
+      - "127.0.0.1:${RAG_PG_PORT:-5433}:5432"
+    volumes:
+      - rag_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      # -h 127.0.0.1 de propósito: sem ele o teste vai pelo socket unix, que o servidor
+      # temporário da inicialização já atende, e o --wait devolve "healthy" cedo demais.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U rag -d rag"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  rag_pgdata:

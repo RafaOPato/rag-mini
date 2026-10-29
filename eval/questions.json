@@ -1,0 +1,20 @@
+[
+  {"id": "q01", "question": "A partir de que altura é obrigatório usar cinto paraquedista?", "expected": "03-trabalho-em-altura.md"},
+  {"id": "q02", "question": "Quantos sacos de cimento posso empilhar?", "expected": "06-armazenamento-de-materiais.md"},
+  {"id": "q03", "question": "Em que profundidade a vala precisa de escoramento?", "expected": "05-escavacoes-e-valas.md"},
+  {"id": "q04", "question": "Quanto tempo o concreto pode levar entre sair da usina e acabar de ser descarregado?", "expected": "08-concretagem-e-cura.md"},
+  {"id": "q05", "question": "O que fazer se o material chegar com a embalagem rasgada?", "expected": "07-recebimento-de-materiais.md"},
+  {"id": "q06", "question": "Qual a altura do guarda-corpo do andaime?", "expected": "04-andaimes-e-plataformas.md"},
+  {"id": "q07", "question": "Quando o protetor auricular passa a ser obrigatório?", "expected": "02-epi-equipamentos-de-protecao.md"},
+  {"id": "q08", "question": "Quem pode mexer no quadro de energia do canteiro?", "expected": "10-instalacoes-eletricas-provisorias.md"},
+  {"id": "q09", "question": "Onde descartar os restos de gesso?", "expected": "11-residuos-e-entulho.md"},
+  {"id": "q10", "question": "Até que horas o diário de obra deve estar preenchido?", "expected": "13-diario-de-obra-e-registros.md"},
+  {"id": "q11", "question": "Quem acompanha uma pessoa de fora durante a visita à obra?", "expected": "15-visitantes-sinalizacao-e-dds.md"},
+  {"id": "q12", "question": "Por quantos dias o concreto precisa ficar úmido depois de lançado?", "expected": "08-concretagem-e-cura.md"},
+  {"id": "q13", "question": "Em quanto tempo a CAT deve ser emitida depois de um acidente com afastamento?", "expected": "14-emergencias-e-primeiros-socorros.md"},
+  {"id": "q14", "question": "Como guardar o vergalhão para ele não enferrujar?", "expected": "06-armazenamento-de-materiais.md"},
+  {"id": "q15", "question": "De quanto em quanto tempo se faz o simulado de abandono?", "expected": "14-emergencias-e-primeiros-socorros.md"},
+  {"id": "n01", "question": "Qual é a capital da Austrália?", "expected": null},
+  {"id": "n02", "question": "Quanto ganha um mestre de obras por mês?", "expected": null},
+  {"id": "n03", "question": "Qual o traço de concreto para resistência de 30 MPa?", "expected": null}
+]

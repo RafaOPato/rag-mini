@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Segredos e configuração local
+.env
+
+# Cache de modelos (fastembed baixa o modelo na primeira execução)
+fastembed_cache/
+.fastembed_cache/
+models_cache/
+
+# Dados e logs locais
+pgdata/
+*.log
